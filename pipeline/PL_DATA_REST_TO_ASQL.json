@@ -37,7 +37,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "",
+						"referenceName": "RestResource1",
 						"type": "DatasetReference"
 					}
 				],
