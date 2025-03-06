@@ -45,13 +45,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText6",
+						"referenceName": "DS_ABLB_6",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable5",
+						"referenceName": "DS_ASQL_5",
 						"type": "DatasetReference"
 					}
 				]
