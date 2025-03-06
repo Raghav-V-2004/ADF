@@ -234,7 +234,7 @@
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable4",
+						"referenceName": "DS_ASQL_4",
 						"type": "DatasetReference"
 					}
 				]
