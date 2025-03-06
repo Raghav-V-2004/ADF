@@ -8,17 +8,44 @@
 		"AzureBlobStorage1_connectionString": {
 			"value": ""
 		},
+		"LS_ABLB__connectionString": {
+			"value": ""
+		},
+		"LS_ASQL__password": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
 		"AzureSqlDatabase1_password": {
 			"value": ""
 		},
+		"LS_ASQL__properties_typeProperties_server": {
+			"value": "sql-newserver.database.windows.net"
+		},
+		"LS_ASQL__properties_typeProperties_database": {
+			"value": "sql-db"
+		},
+		"LS_ASQL__properties_typeProperties_userName": {
+			"value": "raghav"
+		},
+		"RestService1_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com"
+		},
+		"LS_REST_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com"
+		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
-			"value": "server-raghav.database.windows.net"
+			"value": "sql-newserver.database.windows.net"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_database": {
-			"value": "mydatabase"
+			"value": "sql-db"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_userName": {
 			"value": "raghav"
+		},
+		"RestService2_properties_typeProperties_url": {
+			"value": "https://jsonplaceholder.typicode.com"
 		}
 	}
 }
