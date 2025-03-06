@@ -10,10 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobStorageLocation",
-				"fileName": {
-					"value": "@item.name",
-					"type": "Expression"
-				},
+				"fileName": "item().name",
 				"container": "assessment"
 			},
 			"columnDelimiter": ",",
