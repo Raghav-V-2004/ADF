@@ -55,6 +55,17 @@
 						"type": "DatasetReference"
 					}
 				]
+			},
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": [
+					{
+						"name": "filenames",
+						"value": "[\"Customer.csv\",\"Day-1.csv\"]"
+					}
+				]
 			}
 		],
 		"annotations": []
