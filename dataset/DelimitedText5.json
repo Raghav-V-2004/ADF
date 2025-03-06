@@ -13,10 +13,12 @@
 				"fileName": "item().name",
 				"container": "assessment"
 			},
-			"columnDelimiter": ",",
-			"escapeChar": "\\",
+			"columnDelimiter": "Comma (,)",
+			"encodingName": "UTF-8",
+			"escapeChar": "Backslash (\\)",
 			"firstRowAsHeader": true,
-			"quoteChar": "\""
+			"nullValue": "\"\"",
+			"quoteChar": "Double quote (\")"
 		},
 		"schema": [
 			{
