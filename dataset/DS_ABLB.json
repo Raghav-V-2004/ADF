@@ -1,0 +1,40 @@
+{
+	"name": "DS_ABLB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ABLB_",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"fileName": "newone.csv",
+				"container": "output"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "currency",
+				"type": "String"
+			},
+			{
+				"name": "month",
+				"type": "String"
+			},
+			{
+				"name": "to_currency",
+				"type": "String"
+			},
+			{
+				"name": "exchange_rate",
+				"type": "String"
+			}
+		]
+	}
+}
