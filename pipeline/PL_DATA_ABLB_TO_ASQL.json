@@ -45,25 +45,14 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "DelimitedText7",
+						"referenceName": "DelimitedText6",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "AzureSqlTable3",
+						"referenceName": "AzureSqlTable5",
 						"type": "DatasetReference"
-					}
-				]
-			},
-			{
-				"name": "ForEach1",
-				"type": "ForEach",
-				"dependsOn": [],
-				"userProperties": [
-					{
-						"name": "filenames",
-						"value": "[\"Customer.csv\",\"Day-1.csv\"]"
 					}
 				]
 			}
