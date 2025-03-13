@@ -62,7 +62,13 @@
 							"outputs": [
 								{
 									"referenceName": "SnowflakeTable1",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"item": {
+											"value": "@item()",
+											"type": "Expression"
+										}
+									}
 								}
 							]
 						}
@@ -76,7 +82,8 @@
 				"defaultValue": [
 					"customers",
 					"products",
-					"transactions"
+					"transactions",
+					"country"
 				]
 			}
 		},
