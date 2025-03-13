@@ -50,13 +50,7 @@
 							"inputs": [
 								{
 									"referenceName": "local",
-									"type": "DatasetReference",
-									"parameters": {
-										"item": {
-											"value": "@item()",
-											"type": "Expression"
-										}
-									}
+									"type": "DatasetReference"
 								}
 							],
 							"outputs": [
