@@ -1,0 +1,12 @@
+{
+	"name": "local",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "local_to_adf",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": []
+	}
+}
