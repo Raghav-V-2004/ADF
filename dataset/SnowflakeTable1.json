@@ -10,7 +10,7 @@
 		"schema": [],
 		"typeProperties": {
 			"schema": "staging",
-			"table": ""
+			"table": "@item()"
 		}
 	}
 }
