@@ -9,8 +9,7 @@
 		"type": "SnowflakeV2Table",
 		"schema": [],
 		"typeProperties": {
-			"schema": "staging",
-			"table": "@item()"
+			"schema": "staging"
 		}
 	}
 }
