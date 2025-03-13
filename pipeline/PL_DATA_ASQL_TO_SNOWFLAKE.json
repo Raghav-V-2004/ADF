@@ -12,6 +12,7 @@
 						"value": "@variables('items')",
 						"type": "Expression"
 					},
+					"isSequential": true,
 					"activities": [
 						{
 							"name": "Copy data2",
@@ -37,7 +38,14 @@
 										"type": "SnowflakeImportCopyCommand"
 									}
 								},
-								"enableStaging": false
+								"enableStaging": true,
+								"stagingSettings": {
+									"linkedServiceName": {
+										"referenceName": "AzureBlobStorage1",
+										"type": "LinkedServiceReference"
+									},
+									"path": "newcontainer"
+								}
 							},
 							"inputs": [
 								{
