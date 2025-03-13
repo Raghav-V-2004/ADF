@@ -5,6 +5,11 @@
 			"referenceName": "local_to_adf",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"item": {
+				"type": "String"
+			}
+		},
 		"annotations": [],
 		"type": "SqlServerTable",
 		"schema": [],
