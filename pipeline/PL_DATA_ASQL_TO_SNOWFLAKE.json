@@ -68,7 +68,9 @@
 			"items": {
 				"type": "Array",
 				"defaultValue": [
-					"['customers','products','transactions']"
+					"customers",
+					"products",
+					"transactions"
 				]
 			}
 		},
