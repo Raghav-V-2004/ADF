@@ -5,7 +5,8 @@
 		"annotations": [],
 		"type": "AzureBlobStorage",
 		"typeProperties": {
-			"sasUri": "https://raghav.blob.core.windows.net/?sv=2022-11-02&ss=bfqt&srt=sco&sp=rwdlacupiytfx&se=2025-03-14T12:19:54Z&st=2025-03-14T04:19:54Z&spr=https,http&sig=IEI%2BTH9bAKcNPEQNuv00qCqde7OTf%2BDo%2B6n7NrIUYQM%3D?Hello_World"
+			"sasUri": "https://raghav.blob.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDczMjg2OEQzLTVERDgtNDQwNy05MTU5LURGQjEyQjI4MzY2Ml9jZjVhMDhiMy03NWRlLTQyNzktYmRjYy1kMDVjNzM1MTJjZDMiDQp9"
 		}
 	}
 }
