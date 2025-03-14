@@ -11,7 +11,7 @@
 			"database": "RideSharing",
 			"warehouse": "COMPUTE_WH",
 			"role": "ACCOUNTADMIN",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIxNGRkODA4ZC1hMTQ1LTRlNjYtOGY2Ni02ZWNiMmZjZWE1Y2QiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI1ZGIzMTEwNi04YzAwLTQ0NDMtOGI0ZS1jOTVlMDU4YzJiNDQiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "IntegrationRuntime1",
