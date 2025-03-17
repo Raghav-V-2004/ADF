@@ -81,10 +81,7 @@
 			"items": {
 				"type": "Array",
 				"defaultValue": [
-					"CUSTOMERS",
-					"PRODUCTS",
-					"COUNTRY",
-					"TRANSACTIONS"
+					"NEWTABLE"
 				]
 			}
 		},
